@@ -1,0 +1,47 @@
+# System generated files
+.DS_Store
+Thumbs.db
+
+# Compiler generated files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.dSYM/
+*.pdb
+
+# Build folders
+build/
+bin/
+Debug/
+Release/
+*.log
+
+# Temporary editor files
+*.swp
+*.swo
+*~
+
+# Vim/Neovim specific files
+.vim/
+.vimrc
+*.un~
+Session.vim
+.netrwhist
+
+# CMake specific files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Git specific files
+.git/
+
+# Custom folders
+logs/
+
