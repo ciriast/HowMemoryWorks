@@ -1,5 +1,6 @@
 #include <iostream>
 
-void printMessage() {
-	std::cout << "Hello from Allocator" <<std::endl;
+void stackExample() {
+	int stackVar = 42; // A variable in the stack
+	std::cout << "Value in the stack: " << stackVar <<std::endl;
 }
