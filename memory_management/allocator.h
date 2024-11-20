@@ -4,5 +4,6 @@
 void stackExample();
 void heapExample();
 void stackSimulation(int value);
+void heapArrayExample(int size);
 
 #endif

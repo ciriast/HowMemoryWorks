@@ -11,6 +11,8 @@ int main() {
 	stackSimulation(26);
 	stackSimulation(41);
 	stackSimulation(18);
+	
+	heapArrayExample(5);
 
 	return 0;
 }

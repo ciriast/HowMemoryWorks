@@ -43,3 +43,24 @@ void stackSimulation(int value) {
 		<< ", Address -> " << &localVar << "\n";
 
 }
+
+
+void heapArrayExample(int size) {
+	// Assign a dynamic array in the heap
+	int* dynamicArray = new int[size];
+
+	// Fill the array with data
+	for (int i = 0; i < size; ++i) {
+		dynamicArray[i] = i * 10;
+	}
+
+	// Print the array content
+	for (int i = 0; i < size; ++i) {
+		std::cout << "Index " << i << ": Value " << dynamicArray[i]
+			<< ", Address -> " << &dynamicArray[i] << "\n";
+	}
+
+	// Free the memory
+	delete[] dynamicArray;
+	std::cout << "Memory freed \n";
+}
