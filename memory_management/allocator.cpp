@@ -36,6 +36,10 @@ void heapExample() {
 	delete heapVar; // Free up the memory
 }
 
-void stackSimulation(int level) {
-	int localVar = level;
+void stackSimulation(int value) {
+	int localVar = value; // Variable that simulates a cell in the stack
+
+	std::cout << "Created stack frame: localVar = " << localVar
+		<< ", Address -> " << &localVar << "\n";
+
 }

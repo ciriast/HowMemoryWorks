@@ -3,6 +3,6 @@
 
 void stackExample();
 void heapExample();
-void stackSimulation(int level);
+void stackSimulation(int value);
 
 #endif
