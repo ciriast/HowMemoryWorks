@@ -35,3 +35,7 @@ void heapExample() {
 
 	delete heapVar; // Free up the memory
 }
+
+void stackSimulation(int level) {
+	int localVar = level;
+}
