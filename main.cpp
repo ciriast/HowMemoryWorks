@@ -1,5 +1,6 @@
 #include <iostream> 
 #include "memory_management/allocator.h"
+#include "memory_management/pointers_and_references.h"
 
 int main() {
 	std::cout << "Hello World" << std::endl;
@@ -13,6 +14,9 @@ int main() {
 	stackSimulation(18);
 	
 	heapArrayExample(5);
+	
+	std::cout << "Pointers example" << std::endl;
+	pointerExample();
 
 	return 0;
 }
