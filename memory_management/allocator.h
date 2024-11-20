@@ -2,5 +2,6 @@
 #define ALLOCATOR_H
 
 void stackExample();
+void heapExample();
 
 #endif
