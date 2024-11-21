@@ -8,13 +8,16 @@
 // For better practices, always initilize your pointers
 void pointerExample() {
 	int x = 13;
+	int y = 14;
+	y = x;
 	int* ptr = &x; // 'ptr' points to the 'x' memory location
 
 	std::cout << "Address of x: " << &x << std::endl;
 	std::cout << "Pointer ptr stores: " << ptr << std::endl;
 	std::cout << "Value pointed by ptr: " << *ptr << std::endl;
-
+	std::cout << "Y value: " << y << std::endl;
 
 	*ptr = 20;
 	std::cout << "Updated value of x: " << x << std::endl;
+	std::cout << "Y value after modified x: " << y << std::endl;
 }
