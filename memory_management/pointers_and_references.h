@@ -2,5 +2,6 @@
 #define POINTERS_H
 
 void pointerExample();
+void referenceExample();
 
 #endif

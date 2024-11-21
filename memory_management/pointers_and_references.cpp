@@ -27,3 +27,20 @@ void pointerExample() {
 	std::cout << "I would like to know how many memory uses my int variable: " << sizeof(myNewInt) << std::endl;
 	std::cout << "I would like to know how many memory uses my char variable: " << sizeof(myNewChar) << std::endl;
 }
+
+// The reference can't be null
+// You can't change the target
+// You should initialize 
+// You can access the value with the reference name
+// You can't use it in dynamic structures
+void referenceExample() {
+    int x = 30;
+    int& myXReference = x;
+
+    std::cout << "Value of x: " << x << std::endl;
+    std::cout << "Value myXReference: " << myXReference << std::endl;
+
+    myXReference = 50;
+
+    std::cout << "Updated value of X: " << x << std::endl;
+}

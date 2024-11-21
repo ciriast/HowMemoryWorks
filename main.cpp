@@ -17,6 +17,7 @@ int main() {
 	
 	std::cout << "Pointers example" << std::endl;
 	pointerExample();
+    referenceExample();
 
 	return 0;
 }
